@@ -1,0 +1,11 @@
+{
+  "_captured_at": "2026-08-20T05:05:00Z",
+  "_captured_run_id": "r_1778d016addd48a2a3e85dd216a15f00",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC OPTIONS: 32 option(s) displayed"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

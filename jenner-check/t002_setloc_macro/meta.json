@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_setloc_macro",
+  "source_file": "Anonymize and Mask Data.step",
+  "source_blob_sha": "1fc2e91a8e215d9b21479918bbd64dedf56e3e5d",
+  "source_commit": "4965d55f46a209b0a77e45d041276e1b96774448",
+  "notes": "The %setLoc locale-resolution macro embedded in this SAS Studio custom step's templates.SAS JSON field, copied unmodified. The step's actual masking call (%DQLOAD + dqStandardize()) depends on a licensed DataFlux Quality Knowledge Base and isn't a fair Jenner target, so this bundle adds a small caller that exercises %setLoc's branch table across 5 locales including the ENUSA fallback branch."
+}

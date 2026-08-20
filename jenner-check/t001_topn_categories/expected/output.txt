@@ -1,0 +1,22 @@
+                                     Top Models by MPG_City for each region of Type
+
+                                     Top Models by MPG_City for each region of Type
+
+                                     Top Models by MPG_City for each region of Type
+
+                                          Type      Rank  Model       MPG_City
+                                          SUV          1  Highlander      21.5
+                                                       2  Pilot             17
+                                                       3  Explorer        15.5
+                                          Sedan        1  Civic             30
+                                                       2  Camry           26.5
+                                                       3  Accord          24.5
+                                          Sports       1  Mustang           17
+                                                       2  Camaro            16
+                                                       3  Corvette          15
+                                          Truck        1  Tacoma            19
+                                                       2  F150            14.5
+                                                       3  Ram               14
+                                          Wagon        1  Outback         23.5
+
+MEAN of MPG_City for ALL values of Model:    19.65 (      20 total rows)

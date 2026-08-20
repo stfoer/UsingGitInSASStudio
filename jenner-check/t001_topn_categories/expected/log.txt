@@ -1,0 +1,46 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.mycars
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote work.mycars (20 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Top Models by MPG_City for each region of Type.
+NOTE: PROC MEANS
+NOTE: Output dataset summary has 34 observations and 6 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC SQL 
+
+NOTE: Macro variable OVERALL =    19.65
+NOTE: Macro variable NUMOBS =       20
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Macro variable CATEGORYCOUNT =        5
+NOTE: PROC SQL statement used.
+NOTE: PROC SORT data=work.summary
+
+NOTE: Read 34 rows from work.summary.
+NOTE: Wrote work.topn (14 rows, 6 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA topn
+
+
+NOTE: Read 14 rows from topn.
+NOTE: Wrote topn (13 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option FOOTNOTE2 changed to MEAN of MPG_City for ALL values of Model:    19.65 (      20 total rows).
+NOTE: PROC REPORT data=topn
+
+NOTE: PROC REPORT output 13 observations with 4 variables.
+
+NOTE: Read 13 rows from topn.
+NOTE: Wrote (console) (13 rows, 4 columns).
+NOTE: PROC REPORT elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds

@@ -1,0 +1,100 @@
+
+Jenner System Options
+
+OBS=100
+     Specifies the last observation to process
+
+FIRSTOBS=1
+     Specifies the first observation to process
+
+MAXOBS=MAX
+     Hard ceiling on total observations read (security/testing)
+
+REPLACE=REPLACE
+     Specifies whether to replace permanent data sets
+
+YEARCUTOFF=1940
+     Specifies the first year of a 100-year span for two-digit year cutoff
+
+DATESTYLE=MDY
+     Specifies the sequence of month, day, and year for date parsing
+
+SORTSIZE=MAX
+     Specifies the memory available for sorting operations
+
+MEMSIZE=2G
+     Specifies the total memory available
+
+THREADS=CPU count
+     Specifies the number of parallel threads for processing
+
+BUFFERSIZE=8192
+     Specifies the batch size for processing
+
+CPUCOUNT=ACTUAL
+     Specifies how many processors concurrent processing may assume
+
+UTILLOC=System temp
+     Specifies the directory for spill files during sorting
+
+MERGENOBY=WARN
+     Controls behavior when MERGE is used without BY statement
+
+NOTES=NOTES
+     Specifies whether notes are written to the log
+
+SOURCE=NOSOURCE
+     Specifies whether source statements are written to the log
+
+FULLSTIMER=NOFULLSTIMER
+     Specifies whether each step's timing note also reports memory usage
+
+ERRORS=20
+     Specifies the maximum number of observations for which error messages print
+
+COMPRESS=NO
+     Specifies whether to compress output data sets
+
+ENCODING=UTF-8
+     Specifies the default character set encoding
+
+XCMD=XCMD
+     Specifies whether host system commands are allowed
+
+XWAIT=XWAIT
+     Specifies whether to wait for host commands to complete
+
+TRAINLOC=
+     Specifies the location of text-analytics training data
+
+PRINTERPATH=
+     Specifies the destination printer for ODS PRINTER
+
+URL=
+     Specifies the base URL used by ODS HTML when generating relative references
+
+HTTPPROXY=
+     Specifies the HTTP proxy for outbound HTTP/HTTPS requests
+
+EMAILHOST=
+     Specifies the SMTP host for sending email
+
+EMAILID=
+     Specifies the email address used as the sender
+
+USER=
+     Specifies the current user name
+
+SSLCACERTDIR=
+     SSL trusted CA certificate directory
+
+SSLCALISTLOC=
+     SSL trusted CA certificate list file
+
+SSLCERTLOC=
+     SSL client certificate file
+
+SSLPVTKEYLOC=
+     SSL private key file
+
+
