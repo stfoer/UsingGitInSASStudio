@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-20T05:02:00Z",
+  "_captured_run_id": "r_89208c1523f24138a9bbe19fc40fb434",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: locale=English United States resolved QKBlocale=ENUSA",
+    "NOTE: locale=French France resolved QKBlocale=FRFRA",
+    "NOTE: locale=Chinese China resolved QKBlocale=ZHCHN",
+    "NOTE: locale=Klingon Qonos resolved QKBlocale=ENUSA"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

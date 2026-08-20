@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-20T04:56:00Z",
+  "_captured_run_id": "r_38ccaabce5a54b5f8d1b477a73bfc429",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.mycars (20 rows, 3 columns).",
+    "NOTE: Output dataset summary has 34 observations and 6 variables.",
+    "NOTE: Macro variable CATEGORYCOUNT =        5",
+    "NOTE: PROC REPORT output 13 observations with 4 variables."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

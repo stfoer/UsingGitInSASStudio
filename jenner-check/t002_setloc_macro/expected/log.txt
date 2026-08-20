@@ -1,0 +1,14 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA _null_
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: locale=English United States resolved QKBlocale=ENUSA
+NOTE: locale=French France resolved QKBlocale=FRFRA
+NOTE: locale=Chinese China resolved QKBlocale=ZHCHN
+NOTE: locale=Japanese Japan resolved QKBlocale=JAJPN
+NOTE: locale=Klingon Qonos resolved QKBlocale=ENUSA

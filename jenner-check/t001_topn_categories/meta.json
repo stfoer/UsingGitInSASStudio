@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_topn_categories",
+  "source_file": "TopNCategories.sas",
+  "source_blob_sha": "c3aec5edf2235c8f2410a10729f427c5b9436bc0",
+  "source_commit": "4965d55f46a209b0a77e45d041276e1b96774448",
+  "notes": "Top-N-per-category report (PROC MEANS + SQL + SORT + DATA rank step + PROC REPORT), macro-variable parameterized per the script's own header comment. SASHELP.CARS (428 rows) exceeds the hosted API's unlicensed 100-obs cap and truncates before the category-crossed summary populates, so &data= is repointed at a small inline 20-row/5-type sample; PROC GCHART/GOPTIONS block (graphics-only, no listing output) omitted. Report/rank/summarize logic is unmodified."
+}
